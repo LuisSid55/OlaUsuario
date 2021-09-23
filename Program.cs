@@ -6,11 +6,12 @@ namespace OlaUsuario
     {
         static void Main(string[] args)
         {
+            String Nome; 
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.DarkCyan;
             Console.Write("Digite seu nome: ");
             Console.ResetColor();
-            String Nome = Console.ReadLine();
+            Nome = Console.ReadLine();
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.DarkCyan;
             Console.Write("Olá, ");
